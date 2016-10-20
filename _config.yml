@@ -1,6 +1,6 @@
 # main text of home
 name: Aman Chandra
-bio: Student. Robotics Enthusiast. Music.
+bio: Student. Robotics Enthusiast. Music Lover.
 
 # twitter summary info
 description: My personal website
@@ -31,7 +31,7 @@ analytics-google: 'UA-85968481-1'
 # if you don't have any of social below, comment the line
 facebook: amanchandra333
 twitter: amanchandra333
-#google: mygoogle
+google: mygoogle
 instagram: amanchandra_333
 # pinterest: mypinterest
 linkedin: amanchandra333
@@ -63,7 +63,7 @@ width: normal
 projects: false
 
 # if you don't need "about" or "blog", comment them out below
-about: false
+about: true
 blog: false
 
 # do you want to show the "read time" of the posts?
