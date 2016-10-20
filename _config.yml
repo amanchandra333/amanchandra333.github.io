@@ -19,7 +19,7 @@ markdown: kramdown
 highlighter: rouge
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'UA-85968481-1'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -34,7 +34,7 @@ twitter: amanchandra333
 #google: mygoogle
 instagram: amanchandra_333
 # pinterest: mypinterest
-linkedin: in/amanchandra333
+linkedin: amanchandra333
 #youtube: myyoutube
 #spotify: myspotify
 github: amanchandra333
