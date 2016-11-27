@@ -5,7 +5,6 @@ bio: Student. Robotics Enthusiast. Music Lover.
 # twitter summary info
 description: Just Another Potterhead.
 # if it's an external image, update below for true
-# better with square images
 external-image: false
 picture: assets/images/profile.jpg
 
