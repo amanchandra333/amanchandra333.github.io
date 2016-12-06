@@ -12,16 +12,20 @@ blog: true
 star: false
 author: amanchandra333
 description: Assembling a quadcopter with a low level flight controller
+
 ---
 Beep Beep Beep Whirr! And the mechanical bird soared up and away! Indeed, **Aerial Robotics** is the most intriguing field in the world of Robotics.
 
 ## Summary
 This blog is a guide to assemble a multicopter with an onboard low level microcontroller, starting from the very quad-root level.
 Hop onboard, let's get started.
+- [APM/Pixhawk - *The Low Level Controller*](#apm/pixhawk)
+- [Motors and ESCs](#motors-and-escs)
+
 ---
 
-## Configuration
-### APM/Pixhawk - *The Low Level Controller*:
+
+## APM/Pixhawk
 
 <div class="side-by-side">
     <div class="toleft">
@@ -35,7 +39,7 @@ Hop onboard, let's get started.
 </div>
 
 
-### Motors and ESCs:
+### Motors and ESCs
 
 <div class="side-by-side">
     <div class="toleft">
