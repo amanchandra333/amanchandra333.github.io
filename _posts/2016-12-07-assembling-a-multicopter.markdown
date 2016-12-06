@@ -2,7 +2,7 @@
 title: "Assembling a Multicopter"
 layout: post
 date: 2016-12-07 02:37
-image: /assets/images/markdown.jpg
+image: /assets/blog/header.jpg
 headerImage: true
 tag:
 - multicopter
