@@ -19,3 +19,7 @@ Beep Beep Beep Whirr! And the mechanical bird soared up and away! Indeed, **Aeri
 This blog is a guide to assemble a multicopter with an onboard low level microcontroller, starting from the very quad-root level.
 Hop onboard, let's get started.
 
+## Configuration
+
+### APM/Pixhawk - The low level controller
+Ardupilot Mega (APM) is an IMU autopilot that is based on the Arduino Mega platform. It is capable for autonomous stabilisation, way-point based navigation and two way telemetry with Xbee wireless modules.  Supporting 8 RC channels with 4 serial ports.  ArduPilot Mega consists of the main processor board and the IMU shield which fits above or below it.
