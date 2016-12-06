@@ -24,8 +24,7 @@ Hop onboard, let's get started.
 ### APM/Pixhawk - The low level controller
 
 
-{% highlight raw %}
-![Markdowm Image][/assets/blog/apm.jpg]]
-{% endhighlight %}
+![APM][/assets/blog/apm.jpg]
+
 Ardupilot Mega (APM) is an IMU autopilot that is based on the Arduino Mega platform. It is capable for autonomous stabilisation, way-point based navigation and two way telemetry with Xbee wireless modules, supporting 8 RC channels with 4 serial ports.  ArduPilot Mega consists of the main processor board and the IMU shield which fits above or below it.
 
