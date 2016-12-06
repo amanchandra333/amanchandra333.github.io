@@ -9,7 +9,7 @@ tag:
 - quadcopter
 - robotics
 blog: true
-star: true
+star: false
 author: amanchandra333
 description: Assembling a quadcopter with a low level flight controller
 ---
