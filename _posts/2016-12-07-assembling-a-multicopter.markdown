@@ -19,13 +19,21 @@ Beep Beep Beep Whirr! And the mechanical bird soared up and away! Indeed, **Aeri
 ## Summary
 This blog is a guide to assemble a multicopter with an onboard low level microcontroller, starting from the very quad-root level.
 Hop onboard, let's get started.
-- [APM/Pixhawk - *The Low Level Controller*](#apm/pixhawk)
+
+---
+
+## In this blog
+
+- [APM/Pixhawk - *The Low Level Controller*](#apm)
 - [Motors and ESCs](#motors-and-escs)
+- [LiPo - *The Power Source*](#the-power-source)
+
+
 
 ---
 
 
-## APM/Pixhawk
+## APM
 
 <div class="side-by-side">
     <div class="toleft">
@@ -38,8 +46,9 @@ Hop onboard, let's get started.
     </div>
 </div>
 
+---
 
-### Motors and ESCs
+## Motors and ESCs
 
 <div class="side-by-side">
     <div class="toleft">
@@ -52,5 +61,18 @@ Hop onboard, let's get started.
     </div>
 </div>
 
+---
 
+## The Power Source
+
+<div class="side-by-side">
+    <div class="toleft">
+        <img class="image" src="http://amanchandra333.github.io/website/assets/blog/tattu.jpg" alt="Alt Text">
+        <figcaption class="caption">LiPo Battery</figcaption>
+    </div>
+
+    <div class="toright">
+        <p>A Lithium Polymer battery of rating 11.1V, 3s, 5000mAh, 20C is used for powering the motors.</p>
+    </div>
+</div>
 
