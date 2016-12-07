@@ -307,7 +307,9 @@ You can read more about flight modes [here](http://ardupilot.org/copter/docs/fli
 
 # Fly
 
-Flying a multicopter is an art and it will take some time to master, but you will definitely get a hold of it!
+Flying a multicopter is an art and it will take some time, ~~break some propellers and explode some LiPos~~ but you will definitely get a hold of it! Fly high, may the thrust be with you!
+
+Here's a video of the Hexacopter Eagle with a self-designed wooden frame:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zkAW5YEfc4I" frameborder="0" allowfullscreen></iframe>
 
@@ -316,6 +318,8 @@ Flying a multicopter is an art and it will take some time to master, but you wil
 # The High Level Microcontroller
 
 The next step in the world of Aerial Robotics is Autonomous Flight. Odroid and Raspberry Pi are common High Level Microcontrollers. Stay Tuned!
+
+![Canary](/assets/blog/canary.jpg)
 
 <div class="breaker"></div>
 
