@@ -38,7 +38,7 @@ Hop onboard, let's get started.
 - [Compass Calibration](#compass-calibration)
 - [Radio Control Calibration](radio-control-calibration)
 - [Accelerometer Calibration](accelerometer-calibration)
-
+- [ESC Calibration](#esc-calibration)
 
 ---
 
@@ -217,8 +217,8 @@ Copter default channel mappings are:
  *   Channel 2: Pitch
   *  Channel 3: Throttle
    * Channel 4: Yaw
-    *Channel 5: Flight modes
-    *Channel 6: (Optional) Inflight tuning or camera mount (mapped to transmitter tuning knob)
+  *  Channel 5: Flight modes
+   * Channel 6: (Optional) Inflight tuning or camera mount (mapped to transmitter tuning knob)
     
 *For safety reasons you should disconnect the battery and/or remove propellers before preforming radio calibration. Also, centre trims in manual RC mode before preforming RC calibration. If trims are not centred you may need to do the RC calibration again after you have used the vehicle.*
 
@@ -233,7 +233,7 @@ Copter default channel mappings are:
 
 ---
 
-## Accelerometer Calibration
+### Accelerometer Calibration
 
 * Under Initial Setup->Mandatory Hardware, select Accel Calibration from the left-side menu.
 * Click Calibrate Accel to start the calibration.
@@ -250,4 +250,29 @@ A video demonstration can be found [here](https://vimeo.com/56224615).
 
 ---
 
+### ESC Calibration
+
+Electronic speed controllers are responsible for spinning the motors at the speed requested by the autopilot. Most ESCs need to be calibrated so that they know the minimum and maximum pwm values that the flight controller will send. 
+
+*Before calibrating ESCs, please ensure that your copter has **NO PROPS** on it and that the APM is **NOT CONNECTED** to your computer via USB and the Lipo battery is disconnected.*
+
+* Plug one of your ESC three-wire cables into the throttle channel of the RC receiver. (This is usually channel 3.)
+* Turn on the transmitter and set throttle stick to maximum (full up).
+* Connect the LiPo battery. You will hear a musical tone then two beeps.
+* After the two beeps, lower the throttle stick to full down.
+* You will then hear a number of beeps (one for each battery cell you’re using) and finally a single long beep indicating the end points have been set and the ESC is calibrated.
+* Disconnect battery. Repeat these steps for all ESCs.
+* If it appears that the ESC’s did not calibrate then the throttle channel on the transmitter might need to be reversed.
+* If you are still having trouble after trying these methods (for example, ESCs still beep continuously) try lowering your throttle trim 50%.
+* You can also try powering your APM board via the USB first to boot it up before plugging in the LiPo.
+
+Once you have calibrated your ESCs, you can test them by plugging in your LiPo. Remember: no propellers!
+
+ *   Ensure your transmitter’s flight mode switch is set to “Stabilize Mode”.
+  *  Arm your copter
+   * Give a small amount of throttle. All motors should spin at about same speed and they should start at the same time. If the motors do not all start at the same time and spin at the same speed, the ESC’s are still not properly calibrated.
+*    Disarm your copter
+
+
+---
 
