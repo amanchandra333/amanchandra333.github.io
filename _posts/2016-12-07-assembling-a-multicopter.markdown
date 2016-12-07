@@ -27,6 +27,9 @@ Hop onboard, let's get started.
 - [APM/Pixhawk - *The Low Level Controller*](#apm)
 - [Motors and ESCs](#motors-and-escs)
 - [LiPo - *The Power Source*](#the-power-source)
+- [RC Transmitter and Reciever](#rc-transmitter-and-reciever)
+- [GPS](#gps)
+
 
 
 
@@ -72,7 +75,38 @@ Hop onboard, let's get started.
     </div>
 
     <div class="toright">
-        <p>A Lithium Polymer battery of rating 11.1V, 3s, 5000mAh, 20C is used for powering the motors.</p>
+        <p>A Lithium Polymer battery of rating 11.1V, 3s, 5000mAh, 20C is used for powering the motors. The battery provides an average flight time of 8-10 minutes.</p>
     </div>
 </div>
+
+---
+
+## RC Transmitter and Reciever
+
+<div class="side-by-side">
+    <div class="toleft">
+        <img class="image" src="http://amanchandra333.github.io/website/assets/blog/rc.jpg" alt="Alt Text">
+        <figcaption class="caption">6 Channel Reciever and Transmitter</figcaption>
+    </div>
+
+    <div class="toright">
+        <p>The quadcopter is controlled by a 6 channel 2.4 GHz RC transmitter and a 6 channel PPM receiver in manual mode. The bandwidth of the transmitter is 500Hz.</p>
+    </div>
+</div>
+
+----
+
+## GPS 
+
+<div class="side-by-side">
+    <div class="toleft">
+        <img class="image" src="http://amanchandra333.github.io/website/assets/blog/gps.jpg" alt="Alt Text">
+        <figcaption class="caption">Ublox Neo-M8N GPS module</figcaption>
+    </div>
+
+    <div class="toright">
+        <p>The Ublox Neo-M8N GPS module includes a HMC5883L digital compass.It outputs precise position updates at 10Hz. The Ublox NEO-M8N is configured to run at a baud rate of 38400. </p>
+    </div>
+</div>
+
 
