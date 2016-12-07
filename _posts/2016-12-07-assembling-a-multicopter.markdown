@@ -307,7 +307,7 @@ You can read more about flight modes [here](http://ardupilot.org/copter/docs/fli
 
 # Fly
 
-Flying a multicopter is an art and it will take some time, ~~break some propellers and explode some LiPos~~ but you will definitely get a hold of it! Fly high, may the thrust be with you!
+Flying a multicopter is an art and it will take some time, break some propellers ~~and explode some LiPos~~ but you will definitely get a hold of it! Fly high, may the thrust be with you!
 
 Here's a video of the Hexacopter Eagle with a self-designed wooden frame:
 
