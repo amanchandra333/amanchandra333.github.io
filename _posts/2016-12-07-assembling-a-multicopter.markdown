@@ -37,6 +37,7 @@ Hop onboard, let's get started.
 - [Loading Firmware](#loading-firmware)
 - [Compass Calibration](#compass-calibration)
 - [Radio Control Calibration](radio-control-calibration)
+- [Accelerometer Calibration](accelerometer-calibration)
 
 
 ---
@@ -201,6 +202,7 @@ If all goes well you will see some status appear on the bottom right including t
 
 * The aim is to rotate the vehicle so that the coloured trail hits each of the white dots. One way to do this is to hold the vehicle in the air and rotate it slowly so that each side (front, back, left, right, top and bottom) points down towards the earth for a few seconds in turn.
 * The calibration will automatically complete when it has data for all the positions. At this point, another window will pop up telling you that it is saving the newly calculated offsets. These are displayed on the main screen below each associated compass.
+
 A video demonstration of the live compass calibration can be found [here](https://www.youtube.com/watch?v=DmsueBS0J3E).
 
 ---
@@ -220,7 +222,7 @@ Copter default channel mappings are:
     
 *For safety reasons you should disconnect the battery and/or remove propellers before preforming radio calibration. Also, centre trims in manual RC mode before preforming RC calibration. If trims are not centred you may need to do the RC calibration again after you have used the vehicle.*
 
-* Open Mission Planner’s INITIAL SETUP->Mandatory Hardware | Radio Calibration screen.
+* Open Mission Planner’s INITIAL SETUP->Mandatory Hardware->Radio Calibration screen.
 * Click on the green Calibrate Radio button in the lower right of the window.
 * Mission Planner will display a prompt to check radio control equipment is on, battery is not connected, and propellers are not attached. Select OK.
 * Move the control sticks and toggle switches on your transmitter to their limits of travel and observe the results on the radio calibration bars. Red lines will appear across the calibration bars to indicate maximum and minimum values.
@@ -230,4 +232,22 @@ Copter default channel mappings are:
 <figcaption class="caption">Input range marked with red lines</figcaption>
 
 ---
+
+## Accelerometer Calibration
+
+* Under Initial Setup->Mandatory Hardware, select Accel Calibration from the left-side menu.
+* Click Calibrate Accel to start the calibration.
+* Mission Planner will prompt you to place the vehicle each calibration position. Press any key to indicate that the autopilot is in position and then proceed to the next orientation.
+
+The calibration positions are: level, on right side, left side, nose down, nose up and on its back.
+
+![Accelero Calibration](/assets/blog/accelero.jpg)
+<figcaption class="caption">Accelerometer Calibration Positions</figcaption>
+
+* When you’ve completed the calibration process, Mission Planner will display “Calibration Successful!”
+
+A video demonstration can be found [here](https://vimeo.com/56224615).
+
+---
+
 
