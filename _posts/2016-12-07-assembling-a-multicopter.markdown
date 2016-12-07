@@ -36,7 +36,7 @@ Hop onboard, let's get started.
 - [Mission Planner](#mission-planner)
 - [Loading Firmware](#loading-firmware)
 - [Compass Calibration](#compass-calibration)
-
+- [Radio Control Calibration](radio-control-calibration)
 
 
 ---
@@ -188,13 +188,46 @@ If all goes well you will see some status appear on the bottom right including t
 
 ---
 
-## Compass Calibration
+### Compass Calibration
 
 * Under Initial Setup->Mandatory Hardware select Compass.
-
+* Select your flight controler configuration to automatically enter the most important configuration information for your board.
+* Confirm that the Enable compasses and Obtain declination automatically boxes are checked.
+* Click the Live Calibration button.
+* A window should pop-up showing you the state of the live calibration.
 
 ![Install firmware](/assets/blog/compass.jpg)
 <figcaption class="caption">Mission Planner: Live Compass Calibration</figcaption>
 
+* The aim is to rotate the vehicle so that the coloured trail hits each of the white dots. One way to do this is to hold the vehicle in the air and rotate it slowly so that each side (front, back, left, right, top and bottom) points down towards the earth for a few seconds in turn.
+* The calibration will automatically complete when it has data for all the positions. At this point, another window will pop up telling you that it is saving the newly calculated offsets. These are displayed on the main screen below each associated compass.
+A video demonstration of the live compass calibration can be found [here](https://www.youtube.com/watch?v=DmsueBS0J3E).
 
+---
+
+### Radio Control Calibration
+
+RC transmitters are used to control vehicle movement and orientation. Copter minimally controls throttle, pitch, roll and yaw.  Each of these control signals are mapped to transmitter stick/switch(s) and in turn to autopilot channels from the connected receiver.
+
+Copter default channel mappings are:
+
+*    Channel 1: Roll
+ *   Channel 2: Pitch
+  *  Channel 3: Throttle
+   * Channel 4: Yaw
+    *Channel 5: Flight modes
+    *Channel 6: (Optional) Inflight tuning or camera mount (mapped to transmitter tuning knob)
+    
+*For safety reasons you should disconnect the battery and/or remove propellers before preforming radio calibration. Also, centre trims in manual RC mode before preforming RC calibration. If trims are not centred you may need to do the RC calibration again after you have used the vehicle.*
+
+* Open Mission Planner’s INITIAL SETUP->Mandatory Hardware | Radio Calibration screen.
+* Click on the green Calibrate Radio button in the lower right of the window.
+* Mission Planner will display a prompt to check radio control equipment is on, battery is not connected, and propellers are not attached. Select OK.
+* Move the control sticks and toggle switches on your transmitter to their limits of travel and observe the results on the radio calibration bars. Red lines will appear across the calibration bars to indicate maximum and minimum values.
+* Select Click when Done when all required channels are set at the minimum and maximum positions.
+
+![RC Calibration](/assets/blog/rccal.jpg)
+<figcaption class="caption">Input range marked with red lines</figcaption>
+
+---
 
