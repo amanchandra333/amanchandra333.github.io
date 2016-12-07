@@ -43,6 +43,7 @@ Hop onboard, let's get started.
 - [Arming the Motors](#arming-the-motors)
 - [Fly!](#fly)
 - [What's next?](#the-high-level-microcontroller)
+
 ---
 
 
@@ -308,6 +309,7 @@ You can read more about flight modes [here](http://ardupilot.org/copter/docs/fli
 
 Flying a multicopter is an art and it will take some time to master, but you will definitely get a hold of it!
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zkAW5YEfc4I" frameborder="0" allowfullscreen></iframe>
 
 <div class="breaker"></div>
 
