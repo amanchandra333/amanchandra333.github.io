@@ -29,8 +29,10 @@ Hop onboard, let's get started.
 - [LiPo - *The Power Source*](#the-power-source)
 - [RC Transmitter and Reciever](#rc-transmitter-and-reciever)
 - [GPS](#gps)
-
-
+- [Assembly](#assembly)
+- [Motor Order Diagrams](#motor-order-diagram)
+- [Attaching Propellers](#attaching-propellers)
+- [Mission Planner](#mission-planner)
 
 
 ---
@@ -60,7 +62,7 @@ Hop onboard, let's get started.
     </div>
 
     <div class="toright">
-        <p>The copter uses 850kV *brushless DC motors*, each with a dedicated Electronic Speed Controller of current rating 40A. The ESCs provide electronically generated three-phase electric power low voltage source of energy for the motor. The PPM signal for the control comes from the APM. ESCs can be BEC or OPTO.</p>
+        <p>The copter uses 850kV Brushless DC Motors, each with a dedicated Electronic Speed Controller of current rating 40A. The ESCs provide electronically generated three-phase electric power low voltage source of energy for the motor. The PPM signal for the control comes from the APM. ESCs can be BEC or OPTO.</p>
     </div>
 </div>
 
@@ -108,5 +110,45 @@ Hop onboard, let's get started.
         <p>The Ublox Neo-M8N GPS module includes a HMC5883L digital compass.It outputs precise position updates at 10Hz. The Ublox NEO-M8N is configured to run at a baud rate of 38400. </p>
     </div>
 </div>
+
+---
+
+## Assembly
+The illustration below highlights a typical installation of a quadcopter. It contains optional equipment including a Camera, Gimbal and a Battery Monitor and it utilizes an ESC wired "Y" power connection rather than the power distribution board common to many MultiCopters.
+![Assembly](/assets/blog/assembly.jpg)
+
+### Motor Order Diagram
+
+<div class="side-by-side">
+    <div class="toleft">
+        <img class="image" src="http://amanchandra333.github.io/website/assets/blog/order.jpg" alt="Alt Text">
+        <figcaption class="caption">Motor Order for Quad X</figcaption>
+    </div>
+
+    <div class="toright">
+        <p>The figure shows motor order for Quad X (the numbers indicates the connected autopilot output pin) and the propeller direction (clockwise (CW) motors are shown in green and take pusher propellers,counterclockwise motors (CCW) are shown in blue and take puller propellers. Diagrams for other frames can be found on the official [Ardupilot Website](http://ardupilot.org/copter/docs/connect-escs-and-motors.html)</p>
+    </div>
+</div>
+
+---
+
+### Attaching Propellers
+
+
+<div class="side-by-side">
+    <div class="toleft">
+        <img class="image" src="http://amanchandra333.github.io/website/assets/blog/prop.jpg" alt="Alt Text">
+        <figcaption class="caption">Recognizing clockwise and counterclockwise propellers</figcaption>
+    </div>
+
+    <div class="toright">
+        <p>The diagrams shows two types of propellers: clockwise (called pushers) and counterclockwise (called pullers). It is most reliable to recognize the correct propeller type by its shape as shown below. Note that the propellers below have the edge with the shallow consistent curve at the leading edge in direction of rotation and the more radical scalloped (and usually thinner edge) as the trailing edge.</p>
+    </div>
+</div>
+
+---
+
+## Mission Planner
+
 
 
