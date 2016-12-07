@@ -2,7 +2,7 @@
 title: "Assembling a Multicopter"
 layout: post
 date: 2016-12-07 02:37
-image: /assets/blog/IMG_20160905_230423.jpg
+image: /assets/blog/head.JPG
 headerImage: true
 tag:
 - multicopter
@@ -39,7 +39,10 @@ Hop onboard, let's get started.
 - [Radio Control Calibration](radio-control-calibration)
 - [Accelerometer Calibration](accelerometer-calibration)
 - [ESC Calibration](#esc-calibration)
-
+- [Flight Modes](flight-modes)
+- [Arming the Motors](#arming-the-motors)
+- [Fly!](#fly)
+- [What's next?](#the-high-level-microcontroller)
 ---
 
 
@@ -275,4 +278,42 @@ Once you have calibrated your ESCs, you can test them by plugging in your LiPo. 
 
 
 ---
+
+## Flight Modes
+
+There are a few things you need to know about the flight modes in ArduCopter before we fly.
+
+* For flying manually without GPS, fly in STABILIZE mode.
+* For flying at a fixed height manually, use ALTITUDE HOLD mode.
+* For flying manually with GPS use Loiter mode(it flies stably and stays at a position if you leave the controls).
+
+You can read more about flight modes [here](http://ardupilot.org/copter/docs/flight-modes.html).
+
+---
+
+## Arming the Motors
+
+* Before proceeding, ensure that the following params are set in Config/Tuning->Full Parameter List
+        - MOT_SPIN_ARMED = 0
+        - THR_MIN  = 130
+        - THR_MAX  = 1000
+* Turn on your transmitter.
+* Plug in your LiPo battery. The red and blue lights should flash for a few seconds as the gyros are calibrated (do not move the copter).
+* The pre-arm checks will run automatically and if any problems are found an APM2.x will double blink the red arming light, on a Pixhawk the RGB led will blink yellow. 
+* Arm the motors by holding the throttle down, and rudder right for 5 seconds. It takes approximately 5 seconds the first time the copter is armed as it re-initialises the gyros and barometer. Do not hold the rudder right for too long (>15 seconds) or you will begin the AutoTrim feature.
+* Once armed, the red arming light should go solid.
+* Raise the throttle to take-off.
+
+# Fly
+
+Flying a multicopter is an art and it will take some time to master, but you will definitely get a hold of it!
+
+
+<div class="breaker"></div>
+
+# The High Level Microcontroller
+
+The next step in the world of Aerial Robotics is Autonomous Flight. Odroid and Raspberry Pi are common High Level Microcontrollers. Stay Tuned!
+
+<div class="breaker"></div>
 
