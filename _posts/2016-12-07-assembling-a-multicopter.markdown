@@ -6,12 +6,12 @@ image: /assets/blog/head1.jpg
 headerImage: true
 tag:
 - multicopter
-- quadcopter
 - robotics
+- aerialrobotics
 blog: true
 star: false
 author: amanchandra333
-description: Assembling a quadcopter with a low level flight controller
+description: Assembling a multicopter with a low level flight controller
 
 ---
 
@@ -19,7 +19,7 @@ Beep Beep Beep Whirr! And the mechanical bird soared up and away! Indeed, **Aeri
 
 ## Summary
 This blog is a guide to assemble a multicopter with an onboard low level microcontroller, starting from the very quad-root level.
-Hop onboard, let's get started.
+Hop onboard, let's get started!
 
 ---
 
@@ -86,7 +86,7 @@ Hop onboard, let's get started.
     </div>
 
     <div class="toright">
-        <p>A Lithium Polymer battery of rating 11.1V, 3s, 5000mAh, 20C is used for powering the motors. The battery provides an average flight time of 8-10 minutes.</p>
+        <p>A Lithium Polymer battery of rating 11.1V, 3s, 5000mAh, 20C is used for powering the motors. The battery provides an average flight time of 4-6 minutes.</p>
     </div>
 </div>
 
@@ -97,7 +97,7 @@ Hop onboard, let's get started.
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="http://amanchandra333.github.io/website/assets/blog/rc.jpg" alt="Alt Text">
-        <figcaption class="caption">6 Channel Reciever and Transmitter</figcaption>
+        <figcaption class="caption">Reciever and Transmitter</figcaption>
     </div>
 
     <div class="toright">
@@ -124,7 +124,7 @@ Hop onboard, let's get started.
 
 ## Assembly
 
-The illustration below highlights a typical installation of a quadcopter. It contains optional equipment including a Camera, Gimbal and a Battery Monitor and it utilizes an ESC wired "Y" power connection rather than the power distribution board common to many MultiCopters.
+The illustration below highlights the typical installation of a quadcopter. It contains optional equipment including a Camera, Gimbal and a Battery Monitor and it utilizes an ESC wired "Y" power connection rather than the power distribution board common to many MultiCopters.
 
 ![Assembly](/assets/blog/assembly.jpg)
 
@@ -155,7 +155,7 @@ The illustration below highlights a typical installation of a quadcopter. It con
     </div>
 
     <div class="toright">
-        <p>The diagrams shows two types of propellers: clockwise (called pushers) and counterclockwise (called pullers). It is most reliable to recognize the correct propeller type by its shape as shown below. Note that the propellers below have the edge with the shallow consistent curve at the leading edge in direction of rotation and the more radical scalloped (and usually thinner edge) as the trailing edge.</p>
+        <p>The diagrams shows two types of propellers: clockwise (called pushers) and counterclockwise (called pullers). It is most reliable to recognize the correct propeller type by its shape. Note that the propellers have the edge with the shallow consistent curve at the leading edge in direction of rotation and the more radical scalloped (and usually thinner edge) as the trailing edge.</p>
     </div>
 </div>
 
@@ -262,7 +262,7 @@ Electronic speed controllers are responsible for spinning the motors at the spee
 
 * Plug one of your ESC three-wire cables into the throttle channel of the RC receiver. (This is usually channel 3.)
 * Turn on the transmitter and set throttle stick to maximum (full up).
-* Connect the LiPo battery. You will hear a musical tone then two beeps.
+* Connect the LiPo battery. You will hear a musical tone, then two beeps.
 * After the two beeps, lower the throttle stick to full down.
 * You will then hear a number of beeps (one for each battery cell you’re using) and finally a single long beep indicating the end points have been set and the ESC is calibrated.
 * Disconnect battery. Repeat these steps for all ESCs.
@@ -275,14 +275,14 @@ Once you have calibrated your ESCs, you can test them by plugging in your LiPo. 
  *   Ensure your transmitter’s flight mode switch is set to “Stabilize Mode”.
   *  Arm your copter
    * Give a small amount of throttle. All motors should spin at about same speed and they should start at the same time. If the motors do not all start at the same time and spin at the same speed, the ESC’s are still not properly calibrated.
-*    Disarm your copter
+*    Disarm your copter.
 
 
 ---
 
 ## Flight Modes
 
-There are a few things you need to know about the flight modes in ArduCopter before we fly.
+There are a few things you need to know about the flight modes in ArduCopter before flying.
 
 * For flying manually without GPS, fly in STABILIZE mode.
 * For flying at a fixed height manually, use ALTITUDE HOLD mode.
@@ -295,9 +295,10 @@ You can read more about flight modes [here](http://ardupilot.org/copter/docs/fli
 ## Arming the Motors
 
 * Before proceeding, ensure that the following params are set in Config/Tuning->Full Parameter List
-        - MOT_SPIN_ARMED = 0
+     
         - THR_MIN  = 130
         - THR_MAX  = 1000
+        - MOT_SPIN_ARMED = 0
 * Turn on your transmitter.
 * Plug in your LiPo battery. The red and blue lights should flash for a few seconds as the gyros are calibrated (do not move the copter).
 * The pre-arm checks will run automatically and if any problems are found an APM2.x will double blink the red arming light, on a Pixhawk the RGB led will blink yellow. 
