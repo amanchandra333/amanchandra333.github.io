@@ -14,6 +14,7 @@ author: amanchandra333
 description: Assembling a quadcopter with a low level flight controller
 
 ---
+
 Beep Beep Beep Whirr! And the mechanical bird soared up and away! Indeed, **Aerial Robotics** is the most intriguing field in the world of Robotics.
 
 ## Summary
@@ -34,6 +35,8 @@ Hop onboard, let's get started.
 - [Attaching Propellers](#attaching-propellers)
 - [Mission Planner](#mission-planner)
 - [Loading Firmware](#loading-firmware)
+- [Compass Calibration](#compass-calibration)
+
 
 
 ---
@@ -120,6 +123,8 @@ The illustration below highlights a typical installation of a quadcopter. It con
 
 ![Assembly](/assets/blog/assembly.jpg)
 
+---
+
 ### Motor Order Diagram
 
 <div class="side-by-side">
@@ -163,7 +168,7 @@ Once you’ve installed the Mission Planner onto your computer, connect the auto
 
 Open the Mission Planner and select the COM port drop-down on the upper-right corner of the screen (near the **Connect** button). Select **AUTO** or the specific port for your board (**PX4 FMU** or **Arduino Mega 2560**). Set the Baud rate to **115200** as shown. Don’t hit **Connect** just yet.
 
-On the Mission Planner’s **Initial Setup | Install Firmware** screen select the appropriate icon that matches your frame (i.e. Quad, Hexa). Answer **Yes** when it asks you “Are you sure?”.
+On the Mission Planner’s **Initial Setup->Install Firmware** screen select the appropriate icon that matches your frame (i.e. Quad, Hexa). Answer **Yes** when it asks you “Are you sure?”.
 
 If all goes well you will see some status appear on the bottom right including the words, “erase...”, “program...”, “verify..” and “Upload Done”. The firmware has been succesfully uploaded to the board.
 
@@ -182,4 +187,14 @@ If all goes well you will see some status appear on the bottom right including t
 </div>
 
 ---
+
+## Compass Calibration
+
+* Under Initial Setup->Mandatory Hardware select Compass.
+
+
+![Install firmware](/assets/blog/compass.jpg)
+<figcaption class="caption">Mission Planner: Live Compass Calibration</figcaption>
+
+
 
