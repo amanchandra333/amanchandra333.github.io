@@ -163,7 +163,7 @@ Once you’ve installed the Mission Planner onto your computer, connect the auto
 Open the Mission Planner and select the COM port drop-down on the upper-right corner of the screen (near the **Connect** button). Select **AUTO** or the specific port for your board (**PX4 FMU** or **Arduino Mega 2560**). Set the Baud rate to **115200** as shown. Don’t hit **Connect** just yet.
 On the Mission Planner’s **Initial Setup | Install Firmware** screen select the appropriate icon that matches your frame (i.e. Quad, Hexa). Answer **Yes** when it asks you “Are you sure?”.
 
-![Assembly](/assets/blog/firmware.jpg)
+![Install firmware](/assets/blog/firmware.jpg)
 <figcaption class="caption">Mission Planner: Install Firmware Screen</figcaption>
 
 ---
