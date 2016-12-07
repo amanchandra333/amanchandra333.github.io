@@ -159,12 +159,27 @@ Mission Planner is free, open source software available for Windows. The latest 
 
 ### Loading Firmware
 
-Once you’ve installed the Mission Planner onto your computer, connect the autopilot board to your computer using the micro USB cable. Windows should automatically detect and install the correct driver software.
-Open the Mission Planner and select the COM port drop-down on the upper-right corner of the screen (near the **Connect** button). Select **AUTO** or the specific port for your board (**PX4 FMU** or **Arduino Mega 2560**). Set the Baud rate to **115200** as shown. Don’t hit **Connect** just yet.
-On the Mission Planner’s **Initial Setup | Install Firmware** screen select the appropriate icon that matches your frame (i.e. Quad, Hexa). Answer **Yes** when it asks you “Are you sure?”.
+<span class="evidence">Once you’ve installed the Mission Planner onto your computer, connect the autopilot board to your computer using the micro USB cable. Windows should automatically detect and install the correct driver software.</span>
+
+<span class="evidence">Open the Mission Planner and select the COM port drop-down on the upper-right corner of the screen (near the **Connect** button). Select **AUTO** or the specific port for your board (**PX4 FMU** or **Arduino Mega 2560**). Set the Baud rate to **115200** as shown. Don’t hit **Connect** just yet.</span>
+
+<span class="evidence">On the Mission Planner’s **Initial Setup | Install Firmware** screen select the appropriate icon that matches your frame (i.e. Quad, Hexa). Answer **Yes** when it asks you “Are you sure?”.</span>
+
+<span class="evidence">If all goes well you will see some status appear on the bottom right including the words, “erase...”, “program...”, “verify..” and “Upload Done”. The firmware has been succesfully uploaded to the board.</span>
 
 ![Install firmware](/assets/blog/firmware.jpg)
 <figcaption class="caption">Mission Planner: Install Firmware Screen</figcaption>
+
+<div class="side-by-side">
+    <div class="toleft">
+        <img class="image" src="http://amanchandra333.github.io/website/assets/blog/port.jpg" alt="Alt Text">
+        <figcaption class="caption"></figcaption>
+    </div>
+
+    <div class="toright">
+        <p>Select the desired port and data rate and then press the Connect button to connect to the autopilot. After connecting Mission Planner will download parameters from the autopilot and the button will change to Disconnect as shown.</p>
+    </div>
+</div>
 
 ---
 
