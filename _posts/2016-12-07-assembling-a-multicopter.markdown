@@ -33,6 +33,7 @@ Hop onboard, let's get started.
 - [Motor Order Diagrams](#motor-order-diagram)
 - [Attaching Propellers](#attaching-propellers)
 - [Mission Planner](#mission-planner)
+- [Loading Firmware](#loading-firmware)
 
 
 ---
@@ -128,7 +129,7 @@ The illustration below highlights a typical installation of a quadcopter. It con
     </div>
 
     <div class="toright">
-        <p>The figure shows motor order for Quad X (the numbers indicates the connected autopilot output pin) and the propeller direction (clockwise (CW) motors are shown in green and take pusher propellers,counterclockwise motors (CCW) are shown in blue and take puller propellers. Diagrams for other frames can be found on the official [Arducopter Website][http://ardupilot.org/copter/docs/connect-escs-and-motors.html]</p>
+        <p>The figure shows motor order for Quad X (the numbers indicates the connected autopilot output pin) and the propeller direction (clockwise (CW) motors are shown in green and take pusher propellers,counterclockwise motors (CCW) are shown in blue and take puller propellers. Diagrams for other frames can be found on the official <a href="http://ardupilot.org/copter/docs/connect-escs-and-motors.html">Arducopter Website</a></p>
     </div>
 </div>
 
@@ -153,4 +154,17 @@ The illustration below highlights a typical installation of a quadcopter. It con
 ## Mission Planner
 
 Mission Planner is free, open source software available for Windows. The latest version can be downloaded from [here](http://firmware.ardupilot.org/Tools/MissionPlanner/MissionPlanner-latest.msi).
+
+---
+
+### Loading Firmware
+
+Once you’ve installed the Mission Planner onto your computer, connect the autopilot board to your computer using the micro USB cable. Windows should automatically detect and install the correct driver software.
+Open the Mission Planner and select the COM port drop-down on the upper-right corner of the screen (near the **Connect** button). Select **AUTO** or the specific port for your board (**PX4 FMU** or **Arduino Mega 2560**). Set the Baud rate to **115200** as shown. Don’t hit **Connect** just yet.
+On the Mission Planner’s **Initial Setup | Install Firmware** screen select the appropriate icon that matches your frame (i.e. Quad, Hexa). Answer **Yes** when it asks you “Are you sure?”.
+
+![Assembly](/assets/blog/firmware.jpg)
+<figcaption class="caption">Mission Planner: Install Firmware Screen</figcaption>
+
+---
 
