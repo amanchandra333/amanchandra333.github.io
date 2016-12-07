@@ -114,7 +114,9 @@ Hop onboard, let's get started.
 ---
 
 ## Assembly
+
 The illustration below highlights a typical installation of a quadcopter. It contains optional equipment including a Camera, Gimbal and a Battery Monitor and it utilizes an ESC wired "Y" power connection rather than the power distribution board common to many MultiCopters.
+
 ![Assembly](/assets/blog/assembly.jpg)
 
 ### Motor Order Diagram
@@ -126,7 +128,7 @@ The illustration below highlights a typical installation of a quadcopter. It con
     </div>
 
     <div class="toright">
-        <p>The figure shows motor order for Quad X (the numbers indicates the connected autopilot output pin) and the propeller direction (clockwise (CW) motors are shown in green and take pusher propellers,counterclockwise motors (CCW) are shown in blue and take puller propellers. Diagrams for other frames can be found on the official [Ardupilot Website](http://ardupilot.org/copter/docs/connect-escs-and-motors.html)</p>
+        <p>The figure shows motor order for Quad X (the numbers indicates the connected autopilot output pin) and the propeller direction (clockwise (CW) motors are shown in green and take pusher propellers,counterclockwise motors (CCW) are shown in blue and take puller propellers. Diagrams for other frames can be found on the official [Arducopter Website][http://ardupilot.org/copter/docs/connect-escs-and-motors.html]</p>
     </div>
 </div>
 
@@ -150,5 +152,5 @@ The illustration below highlights a typical installation of a quadcopter. It con
 
 ## Mission Planner
 
-
+Mission Planner is free, open source software available for Windows. The latest version can be downloaded from [here](http://firmware.ardupilot.org/Tools/MissionPlanner/MissionPlanner-latest.msi).
 
