@@ -2,7 +2,6 @@
 title: "Indigo, minimalist jekyll theme"
 layout: post
 date: 2016-01-23 22:10
-tag: jekyll
 image: /assets/images/jekyll-logo-light-solid.png
 headerImage: true
 projects: true
