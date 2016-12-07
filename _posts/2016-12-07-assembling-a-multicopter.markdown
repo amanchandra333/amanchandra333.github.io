@@ -196,7 +196,7 @@ If all goes well you will see some status appear on the bottom right including t
 * Click the Live Calibration button.
 * A window should pop-up showing you the state of the live calibration.
 
-![Install firmware](/assets/blog/compass.jpg)
+![Install firmware](/assets/blog/compass.png)
 <figcaption class="caption">Mission Planner: Live Compass Calibration</figcaption>
 
 * The aim is to rotate the vehicle so that the coloured trail hits each of the white dots. One way to do this is to hold the vehicle in the air and rotate it slowly so that each side (front, back, left, right, top and bottom) points down towards the earth for a few seconds in turn.
