@@ -316,9 +316,9 @@ Here's a video of the Hexacopter Eagle with a self-designed wooden frame:
 
 <div class="breaker"></div>
 
-# The High Level Microcontroller
+# The High Level Controller
 
-The next step in the world of Aerial Robotics is Autonomous Flight. Odroid and Raspberry Pi are common High Level Microcontrollers. Stay Tuned!
+The next step in the world of Aerial Robotics is Autonomous Flight. Odroid and Raspberry Pi are common High Level Controllers. Stay Tuned!
 
 ![Canary](/assets/blog/canary.jpg)
 
