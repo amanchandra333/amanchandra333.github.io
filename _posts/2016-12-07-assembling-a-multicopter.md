@@ -107,7 +107,7 @@ Hop onboard, let's get started!
 
 ----
 
-## GPS 
+## GPS
 
 <div class="side-by-side">
     <div class="toleft">
@@ -223,7 +223,7 @@ Copter default channel mappings are:
    * Channel 4: Yaw
   *  Channel 5: Flight modes
    * Channel 6: (Optional) Inflight tuning or camera mount (mapped to transmitter tuning knob)
-    
+
 *For safety reasons you should disconnect the battery and/or remove propellers before preforming radio calibration. Also, centre trims in manual RC mode before preforming RC calibration. If trims are not centred you may need to do the RC calibration again after you have used the vehicle.*
 
 * Open Mission Planner’s INITIAL SETUP->Mandatory Hardware->Radio Calibration screen.
@@ -256,7 +256,7 @@ A video demonstration can be found [here](https://vimeo.com/56224615).
 
 ### ESC Calibration
 
-Electronic speed controllers are responsible for spinning the motors at the speed requested by the autopilot. Most ESCs need to be calibrated so that they know the minimum and maximum pwm values that the flight controller will send. 
+Electronic speed controllers are responsible for spinning the motors at the speed requested by the autopilot. Most ESCs need to be calibrated so that they know the minimum and maximum pwm values that the flight controller will send.
 
 *Before calibrating ESCs, please ensure that your copter has **NO PROPS** on it and that the APM is **NOT CONNECTED** to your computer via USB and the Lipo battery is disconnected.*
 
@@ -295,13 +295,13 @@ You can read more about flight modes [here](http://ardupilot.org/copter/docs/fli
 ## Arming the Motors
 
 * Before proceeding, ensure that the following params are set in Config/Tuning->Full Parameter List
-     
+
         - THR_MIN  = 130
         - THR_MAX  = 1000
         - MOT_SPIN_ARMED = 0
 * Turn on your transmitter.
 * Plug in your LiPo battery. The red and blue lights should flash for a few seconds as the gyros are calibrated (do not move the copter).
-* The pre-arm checks will run automatically and if any problems are found an APM2.x will double blink the red arming light, on a Pixhawk the RGB led will blink yellow. 
+* The pre-arm checks will run automatically and if any problems are found an APM2.x will double blink the red arming light, on a Pixhawk the RGB led will blink yellow.
 * Arm the motors by holding the throttle down, and rudder right for 5 seconds. It takes approximately 5 seconds the first time the copter is armed as it re-initialises the gyros and barometer. Do not hold the rudder right for too long (>15 seconds) or you will begin the AutoTrim feature.
 * Once armed, the red arming light should go solid.
 * Raise the throttle to take-off.
@@ -323,4 +323,3 @@ The next step in the world of Aerial Robotics is Autonomous Flight. Odroid and R
 ![Canary](/assets/blog/canary.jpg)
 
 <div class="breaker"></div>
-
