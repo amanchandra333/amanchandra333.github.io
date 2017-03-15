@@ -42,7 +42,7 @@ Hop onboard, let's get started!
 - [Flight Modes](#flight-modes)
 - [Arming the Motors](#arming-the-motors)
 - [Fly!](#fly)
-- [What's next?](#the-high-level-microcontroller)
+- [What's next?](#the-high-level-controller)
 
 ---
 

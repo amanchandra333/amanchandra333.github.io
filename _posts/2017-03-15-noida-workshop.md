@@ -13,49 +13,13 @@ author: amanchandra333
 description: Robotix Workshop at Bennett University, Noida.
 
 ---
-Beep Beep Beep Whirr! And the mechanical bird soared up and away! Indeed, **Aerial Robotics** is the most intriguing field in the world of Robotics.
 
-## Summary
-This blog is a guide to assemble a multicopter with an onboard low level microcontroller, starting from the very quad-root level.
-Hop onboard, let's get started!
-
----
-
-## In this blog
-
-- [APM/Pixhawk - *The Low Level Controller*](#apm)
-- [Motors and ESCs](#motors-and-escs)
-- [LiPo - *The Power Source*](#the-power-source)
-- [RC Transmitter and Reciever](#rc-transmitter-and-reciever)
-- [GPS](#gps)
-- [Assembly](#assembly)
-- [Motor Order Diagrams](#motor-order-diagram)
-- [Attaching Propellers](#attaching-propellers)
-- [Mission Planner](#mission-planner)
-- [Loading Firmware](#loading-firmware)
-- [Compass Calibration](#compass-calibration)
-- [Radio Control Calibration](#radio-control-calibration)
-- [Accelerometer Calibration](#accelerometer-calibration)
-- [ESC Calibration](#esc-calibration)
-- [Flight Modes](#flight-modes)
-- [Arming the Motors](#arming-the-motors)
-- [Fly!](#fly)
-- [What's next?](#the-high-level-microcontroller)
+A week after the mid-semester examinations concluded, I had one big task at hand. The  student-run society and robotics hobby-maker group at IIT Kharagpur, Technology Robotix Society, conducts technical workshops across the country to spread the culture of robotics; and this time I, along with one of my co-subheads Shivang Agrawal was supposed to spearhead it. The workshop was organised at Bennett University, Noida. Needless to say, the two-day workshop was quite an experience and it's difficult to put down everything in a blog post.
 
 ---
 
 
-## APM
+## Day 1
 
-<div class="side-by-side">
-    <div class="toleft">
-        <img class="image" src="http://amanchandra333.github.io/website/assets/blog/apm.jpg" alt="Alt Text">
-        <figcaption class="caption">The APM Flight Controller</figcaption>
-    </div>
-
-    <div class="toright">
-        <p>Ardupilot Mega (APM) is an IMU autopilot that is based on the Arduino Mega platform. It is capable for autonomous stabilisation, way-point based navigation and two way telemetry with Xbee wireless modules, supporting 8 RC channels with 4 serial ports.  ArduPilot Mega consists of the main processor board and the IMU shield which fits above or below it.</p>
-    </div>
-</div>
-
+An early morning flight from Kolkata took us to New Delhi. Although being on a nightout(we had to leave at midnight from Kharagpur to reach the airport in time), none of us was drowsy because of the excitement of conducting the workshop. Of course, we had conducted workshops before, but never this far from Kharagpur. Few of the first year robotics enthusiasts from the university, who managed the entire workshop were there to receive us when we reached the campus and accompanied us to our rooms. From the moment after entering the academic area, we couldn't help noticing the wonderful infrastructure the university had developed within the first couple of years of its inception. It looked anything but modern, compared to the 65 year old KGP campus. And a lot.  We knew that that the Vice Chancellor of the university is a KGP alumnus, and so meeting him was the first thing we could think of after getting freshened up. Dr. Yaj Medury, a KGP alum from the batch of '76 is a way too amiable person. And he lived in Nehru Hall of Residence, the same hall that I live in right now. After a small chat with him about his past days at IIT Kharagpur, we left the office with a little more than double the tempo we walked in with.
 ---
