@@ -1,13 +1,13 @@
 ---
 title: "Noida Workshop"
 layout: post
-date: 2017-03-15 02:37
+date: 2017-03-24 02:37
 image: /assets/noida/head.jpg
 headerImage: true
 tag:
 - workshop
 - robotics
-blog: false
+blog: true
 star: false
 author: amanchandra333
 description: Robotix Workshop at Bennett University, Noida.
