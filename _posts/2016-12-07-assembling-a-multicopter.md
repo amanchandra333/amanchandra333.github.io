@@ -8,8 +8,7 @@ tag:
 - multicopter
 - robotics
 - aerialrobotics
-blog: true
-star: false
+category: blog
 author: amanchandra333
 description: Assembling a multicopter with a low level flight controller
 

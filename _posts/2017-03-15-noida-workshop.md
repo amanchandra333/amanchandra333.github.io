@@ -7,8 +7,7 @@ headerImage: true
 tag:
 - workshop
 - robotics
-blog: true
-star: false
+category: blog
 author: amanchandra333
 description: Robotix Workshop at Bennett University, Noida.
 
