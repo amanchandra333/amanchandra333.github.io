@@ -28,7 +28,6 @@ analytics-google: 'UA-85968481-1'
 # analytics-piwik-url: 'piwik.my-host.com'
 # analytics-piwik-id: 1
 
-
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: amanchandra-in # enter this from your disqus account
