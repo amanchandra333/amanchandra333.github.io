@@ -18,8 +18,8 @@ highlighter: rouge
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: http://amanchandra333.github.io/cv.pdf
+resume-external: false
+resume-url: /amanchandraCV.pdf
 
 # To enable google analytics, supply your token below
 analytics-google: 'UA-85968481-1'
@@ -45,7 +45,7 @@ linkedin: amanchandra333
 github: amanchandra333
 #medium: medium
 #vimeo: myvimeo
-email: amanchandra333@gmail.com
+email: amanchandra333@iitkgp.ac.in
 
 authors:
     amanchandra333:
