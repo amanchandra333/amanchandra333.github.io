@@ -50,7 +50,7 @@ Hop onboard, let's get started!
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="http://amanchandra333.github.io/website/assets/blog/apm.jpg" alt="Alt Text">
+        <img class="image" src="/assets/blog/apm.jpg" alt="Alt Text">
         <figcaption class="caption">The APM Flight Controller</figcaption>
     </div>
 
@@ -65,7 +65,7 @@ Hop onboard, let's get started!
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="http://amanchandra333.github.io/website/assets/blog/motor1.jpg" alt="Alt Text">
+        <img class="image" src="/assets/blog/motor1.jpg" alt="Alt Text">
         <figcaption class="caption">BLDC Motor and ESC</figcaption>
     </div>
 
@@ -80,7 +80,7 @@ Hop onboard, let's get started!
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="http://amanchandra333.github.io/website/assets/blog/tattu.jpg" alt="Alt Text">
+        <img class="image" src="/assets/blog/tattu.jpg" alt="Alt Text">
         <figcaption class="caption">LiPo Battery</figcaption>
     </div>
 
@@ -95,7 +95,7 @@ Hop onboard, let's get started!
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="http://amanchandra333.github.io/website/assets/blog/rc.jpg" alt="Alt Text">
+        <img class="image" src="/assets/blog/rc.jpg" alt="Alt Text">
         <figcaption class="caption">Reciever and Transmitter</figcaption>
     </div>
 
@@ -110,7 +110,7 @@ Hop onboard, let's get started!
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="http://amanchandra333.github.io/website/assets/blog/gps.jpg" alt="Alt Text">
+        <img class="image" src="/assets/blog/gps.jpg" alt="Alt Text">
         <figcaption class="caption">Ublox Neo-M8N GPS module</figcaption>
     </div>
 
@@ -133,7 +133,7 @@ The illustration below highlights the typical installation of a quadcopter. It c
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="http://amanchandra333.github.io/website/assets/blog/order.jpg" alt="Alt Text">
+        <img class="image" src="/assets/blog/order.jpg" alt="Alt Text">
         <figcaption class="caption">Motor Order for Quad X</figcaption>
     </div>
 
@@ -149,7 +149,7 @@ The illustration below highlights the typical installation of a quadcopter. It c
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="http://amanchandra333.github.io/website/assets/blog/prop.jpg" alt="Alt Text">
+        <img class="image" src="/assets/blog/prop.jpg" alt="Alt Text">
         <figcaption class="caption">Recognizing clockwise and counterclockwise propellers</figcaption>
     </div>
 
@@ -181,7 +181,7 @@ If all goes well you will see some status appear on the bottom right including t
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="http://amanchandra333.github.io/website/assets/blog/port.jpg" alt="Alt Text">
+        <img class="image" src="/assets/blog/port.jpg" alt="Alt Text">
         <figcaption class="caption"></figcaption>
     </div>
 
