@@ -37,17 +37,17 @@ disqus:
 
 # if you don't have any of social below, comment the line
 facebook: amanchandra333
-google: amanchandra333
+#google: amanchandra333
 twitter: amanchandra333
 instagram: amanchandra_333
 # pinterest: mypinterest
 linkedin: amanchandra333
 #youtube: myyoutube
-#spotify: myspotify
+spotify: 4lxgd8ox2l5knfm3qtm3wk7h9
 github: amanchandra333
 #medium: medium
 #vimeo: myvimeo
-email: amanchandra333@iitkgp.ac.in
+email: amanchandra333@gmail.com
 
 authors:
     amanchandra333:
@@ -55,7 +55,7 @@ authors:
         bio: Student. Robotics Enthusiast. Potterhead.
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: amanchandra333
+        #twitter: amanchandra333
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
