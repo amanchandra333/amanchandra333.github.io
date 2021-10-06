@@ -1,6 +1,6 @@
 # main text of home
 name: Aman Chandra
-bio: Student. Robotics Enthusiast. Potterhead.
+bio: Software Developer. Robotics Enthusiast. Potterhead.
 
 # twitter summary info
 description: Just Another Potterhead.
@@ -52,7 +52,7 @@ email: amanchandra333@gmail.com
 authors:
     amanchandra333:
         name: Aman Chandra
-        bio: Student. Robotics Enthusiast. Potterhead.
+        bio: Software Developer. Robotics Enthusiast. Potterhead.
         external-image: false
         picture: assets/images/profile.jpg
         #twitter: amanchandra333
